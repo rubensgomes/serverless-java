@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * The application start class.
- * 
+ *
  * @author Rubens Gomes
  */
 @Slf4j

@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 public class HelloRestController
 {
-   static final String OPERATION = "/api/hello";
+   static final String OPERATION = "/hello";
 
    /**
     * The hello operation.
@@ -29,9 +29,7 @@ public class HelloRestController
    //@formatter:off
    @GetMapping
    (
-      path     = { OPERATION                        },
-      consumes = { MediaType.APPLICATION_JSON_VALUE },
-      produces = { MediaType.APPLICATION_JSON_VALUE }
+      path     = { OPERATION                        }
    )
    //@formatter:on
    @ResponseStatus( code = HttpStatus.OK )

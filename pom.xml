@@ -20,6 +20,10 @@
 
    <properties>
       <mainClass>com.rubensgomes.srvless.HelloFunction</mainClass>
+
+      <!-- Spring Boot BOM + Spring Cloud Train  -->
+      <spring-boot.version>3.0.0</spring-boot.version>
+      <spring-cloud.version>2021.0.5</spring-cloud.version>
    </properties>
 
    <dependencies>
