@@ -13,13 +13,13 @@
       <version>1.4</version>
    </parent>
 
-   <groupId>com.rubesgomes.srvless</groupId>
+   <groupId>com.rubesgomes.serverless</groupId>
    <artifactId>hello-fn</artifactId>
    <version>0.0.1</version>
    <packaging>war</packaging>
 
    <properties>
-      <mainClass>com.rubensgomes.srvless.HelloFunction</mainClass>
+      <mainClass>com.rubensgomes.serverless.HelloFunctionApplication</mainClass>
 
       <!-- Spring Boot BOM + Spring Cloud Train  -->
       <spring-boot.version>2.7.6</spring-boot.version>
