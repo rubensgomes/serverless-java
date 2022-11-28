@@ -1,4 +1,4 @@
-package com.rubensgomes.srvless;
+package com.rubensgomes.serverless;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,12 +12,12 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @SpringBootApplication
-public class HelloFunction
+public class HelloFunctionApplication
 {
    public static void main( String[] args )
    {
       log.debug( "Starting the [{}] function",
-                 HelloFunction.class.getName() );
-      SpringApplication.run( HelloFunction.class );
+                 HelloFunctionApplication.class.getName() );
+      SpringApplication.run( HelloFunctionApplication.class );
    }
 }

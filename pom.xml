@@ -22,16 +22,18 @@
       <mainClass>com.rubensgomes.srvless.HelloFunction</mainClass>
 
       <!-- Spring Boot BOM + Spring Cloud Train  -->
-      <spring-boot.version>3.0.0</spring-boot.version>
+      <spring-boot.version>2.7.6</spring-boot.version>
       <spring-cloud.version>2021.0.5</spring-cloud.version>
    </properties>
 
    <dependencies>
       <!-- =============== scope: compile ================================ -->
       <dependency>
-         <groupId>org.springframework.boot</groupId>
-         <artifactId>spring-boot-starter-web</artifactId>
+         <groupId>org.springframework.cloud</groupId>
+         <artifactId>spring-cloud-starter-function-web</artifactId>
+         <scope>provided</scope>
       </dependency>
    </dependencies>
+
 
 </project>
