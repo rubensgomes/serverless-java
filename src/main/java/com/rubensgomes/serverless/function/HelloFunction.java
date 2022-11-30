@@ -25,7 +25,7 @@ class HelloFunction implements UnaryOperator< String >
    @Override
    public String apply( String name )
    {
-      log.trace( "HelloFunction called" );
+      log.trace( "HelloFunction called wih name: {}", name );
       return "Hello " + name;
    }
 }

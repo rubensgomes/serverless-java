@@ -1,6 +1,10 @@
 spring:
    application:
       name: hello-fn
+   cloud:
+      function:
+         scan:
+            packages: com.rubensgomes.serverless.function
 logging:
    config: classpath:log4j2.xml
 server:
