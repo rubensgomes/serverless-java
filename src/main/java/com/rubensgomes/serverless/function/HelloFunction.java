@@ -16,6 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 class HelloFunction implements UnaryOperator< String >
 {
+   static final String HELLO_TXT = "Hello";
 
    HelloFunction()
    {
@@ -25,7 +26,14 @@ class HelloFunction implements UnaryOperator< String >
    @Override
    public String apply( String name )
    {
-      log.trace( "HelloFunction called wih name: {}", name );
-      return "Hello " + name;
+      log.trace( "HelloFunction called wih name: {}",
+                 name );
+
+      StringBuilder buff = new StringBuilder();
+      buff.append( HELLO_TXT );
+      buff.append( " " );
+      buff.append( name );
+
+      return buff.toString();
    }
 }

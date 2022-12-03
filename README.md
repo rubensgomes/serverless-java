@@ -1,6 +1,14 @@
 # Justification for this project
 
-A playground Spring Boot project to experiment with Spring Cloud Function.
+!!!THIS PROJECT IS CURRENTLY UNDER DEVELOPMENT !!!
+
+A playground Spring Boot project to experiment with Serverless Spring Cloud Function.
+
+## Further Information
+
+- [Spring Cloud Function](https://spring.io/projects/spring-cloud-function)
+- [spring-cloud-function-samples](https://spring.io/projects/spring-cloud-function)
+
 
 ## Debug Logs
 

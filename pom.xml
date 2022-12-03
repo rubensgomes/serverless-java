@@ -27,7 +27,7 @@
    </properties>
 
    <dependencies>
-      <!-- =============== scope: compile ================================ -->
+      <!-- =============== scope: compile ================================== -->
       <dependency>
          <groupId>org.springframework.cloud</groupId>
          <artifactId>spring-cloud-starter-function-web</artifactId>
