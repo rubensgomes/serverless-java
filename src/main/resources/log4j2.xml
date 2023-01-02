@@ -21,6 +21,8 @@
    </Appenders>
 
    <Loggers>
+      <Logger name="org.springframework.cloud" level="debug" />
+
       <Root level="info">
          <AppenderRef ref="CONSOLE_APPENDER" />
       </Root>

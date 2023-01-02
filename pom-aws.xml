@@ -23,6 +23,12 @@
    </properties>
 
    <dependencies>
+      <!-- =============== scope: compile ================================== -->
+      <dependency>
+         <groupId>org.springframework.cloud</groupId>
+         <artifactId>spring-cloud-function-adapter-aws</artifactId>
+      </dependency>
+
       <!-- =============== scope: provided ================================= -->
       <dependency>
          <groupId>org.springframework.cloud</groupId>
